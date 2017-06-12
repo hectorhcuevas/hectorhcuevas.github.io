@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Hector Hernandez-Cuevas, born October 3rd 1994. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+hhfire94@gmail.com
