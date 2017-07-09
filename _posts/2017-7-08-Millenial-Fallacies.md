@@ -3,7 +3,7 @@ layout: post
 title: Millenial Fallacies and Moral Confusions of Our Generation
 ---
 
-##Who are we?
+## Who are we?
 
 Our generation, like those before it, think itself quite progressive and special. We can't necessarily be faulted with this 
 erronous view, for it is simply what has been occuring generation after generation for at least the last several centuries. But
@@ -11,7 +11,7 @@ it's crucial to understanding ourselves on a societal level to truly examine the
 have supposedly been derived from a more enlightened view of reality and our role in this world. There are many fallacies embedded
 in our collective worldview, but among them I now turn to what was for myself the most pressing among them; a man's role in society.
 
-##What's a Man to do?
+## What's a Man to do?
 Biologicalls men are programmed on a wide spectrum of behavior. While generally men compete with one another for resources and
 mates, some have cooperative and others aggressive tendencies. Society has encouraged us- quite successfully- to be cooperative,
 but this doesn't mean that man's inherent competitiveness on a day to day basis doesn't manifest itself. Indeed comparison is the
@@ -26,7 +26,7 @@ a tremendous amount of time, energy, and other resources on maintaining this ina
 collective dillusion is so powerful that indeed we rarely notice or ponder the necessity or even practicality of it. Hours wasted,
 energy drained, and anxiety is brought on as a result- but it's okay, because everyone else is doing it too. That's life, isn't it?
 
-##What is a Wonderful Life?
+## What is a Wonderful Life?
 What constitutes a good life? If we are to believe the dominant ideology of our modern interconnected global society, our life 
 is the sum of our good experiences minus the bad ones. We allow for some exceptions; perhaps one was born in squallor and 
 worked relentlessly to earn a bountiful living and attained a higher level of socio-economic status. Surely such an individual,
@@ -36,7 +36,7 @@ life. He has no student loans or other debt, his career choice isn't dictated by
 or choice of vacation spots (with some limits of course). As much as we think ourselves progressive, the truth is our generation 
 strives for __the good life__ by chasing wealth, experiences, and material goods just as much as previous ones.  
 
-##Where Are We Going?
+## Where Are We Going?
 Human progress is often depicted as a linear progression through time, at least in the last few centuries. In economic terms this
 is mostly accurate, and market forces will likely keep the trent chugging along despite the occasional detour. This is of course
 good for humanity in terms of meeting more of our basic needs, but how is it that we have lived in such a globalized world
@@ -47,7 +47,7 @@ populations. Certainly mindfulness and meditation could become a collective prio
 and the like. But the crucial component is that it is still very much up to the individual to attain a more enlightened state of mind,
 and given our current trajectory this doesn't seem viable on the large scale. 
 
-##What More is There?
+## What More is There?
 
 What more is there to our current way of life as millenials, the future leaders and teachers of the world? Is it possible to live
 mindfully and without superficiality while being fully integrated to this interconnected world? There is certainly a balancing act
