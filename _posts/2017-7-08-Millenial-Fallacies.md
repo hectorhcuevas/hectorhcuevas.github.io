@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Millenial Fallacies: Moral Confusions of Our Generation
+title: Millenial Fallacies and Moral Confusions of Our Generation
 ---
 
 ##Who are we?
