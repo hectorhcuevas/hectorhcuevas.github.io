@@ -15,7 +15,7 @@ title: Project Benson
 
 ### Methods & Analysis  
  
-&nbsp;&nbsp;&nbsp;For the turnstile data we also wanted to be strategic in regards to what time period we analyzed. Being that the gala would take place in early summer, it seemed ideal to look at the most recent trends in the months leading up to the event. We were able to scrape and clean data which spanned 90 days from March-May of 2017. Then, to get a broad perspective of subway traffic trends we were able to group entries by station and look at the aggregate entries for each station during the full 90 day span of the data.  
+&nbsp;&nbsp;&nbsp;For the turnstile data we also wanted to be strategic in regards to what time period we analyzed. Being that the gala would take place in early summer, it seemed ideal to look at the most recent trends in the months leading up to the event. We were able to scrape and clean data which spanned 90 days from March-May of 2017. In order to get a broad perspective of subway traffic trends we were able to group entries by station and look at the aggregate entries for each station during the full 90 day span of the data.  
 
 ![Fig 1](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/Entries_total.png)
    
