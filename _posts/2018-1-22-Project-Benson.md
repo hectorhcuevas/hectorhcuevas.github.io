@@ -24,10 +24,10 @@ title: Project Benson
    
    GRD_CNTRL: Grand Central Station is undoubtedly a consistently heavily trafficked area. It is also conveniently located within our 4.5 mile region previously mentioned. Additionally it is located just blocks from 10016 and 10018 in midtown, two areas on the top 10 list for highest tech funded zip codes. For these reasons, we wanted to use Grand Central as a test case for further analysis. One further point of consideration for our team was that different stations might have varying levels of traffic by day of the week or hours of the day (with the latter being more likely). In Grand Central, March-May of 2017 in particular, weekdays dominated over weekends, with relatively consistent levels through the week and a peak on Thursdays. When we examine traffic on an hourly basis it seems that late evenings are most trafficked in Grand Central Station, with noticeable peaks in early morning and early evening hours being more consistent with rush hours in the city.   
 
-![Fig 2](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL.png) ![fig 3](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/Line_chrt.png)
+![Fig 2](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL.png) 
     
     
-![fig 4](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL_hourly.png)
+![fig 3](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL_hourly.png) ![fig 4](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/Line_chrt.png)
 ### Conclusions
    Which Sations are recommended, why? In the end my team came up with the following list of recommended stations:  
 * 34th St-Penn 
