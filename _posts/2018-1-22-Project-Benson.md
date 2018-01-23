@@ -13,7 +13,8 @@ title: Project Benson
 * High overall traffic level  
 * Located in an area with the highest concentration of tech companies   
 * Located in an area with the highest rates of funding for tech companies  
- ### Methods & Analysis  
+
+### Methods & Analysis  
  
   For the turnstile data we also wanted to be strategic in regards to what time period we analyzed. Being that the gala would take place in early summer, it seemed ideal to look at the most recent trends in the months leading up to the event. We were able to scrape and clean data which spanned 90 days from March-May of 2017. Then, to get a broad perspective of subway traffic trends we were able to group entries by station and look at the aggregate entries for each station during the full 90 day span of the data.  
    
