@@ -29,15 +29,16 @@ title: Project Benson
     
 ![fig 3](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL_hourly.png) ![fig 4](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/Line_chrt.png)
 ### Conclusions
-   Which Sations are recommended, why? In the end my team came up with the following list of recommended stations:  
+   In the end my team came up with the following list of recommended stations:  
 * 34th St-Penn 
 * 23rd St 
 * 42nd St Grand Central
 * 42nd St Times Sq
 * Fulton St
 * Canal St  
-  
-   Based on the feedback our team receives, by knowing the amount of volunteers and what their availability is we can further optimize our placement of street teams. The next approach would be to take into account traffic volume at specific stations and for different times of day and days of the week at those stations. 
+This list can be amended of course, according to our client's feedback and their overall manpower as well as volunteer's availability. Our team's next step for our hypothetical client would be to put together an effective marketing street based on these factors and, given a refined list of high-priority stations, could do further analysis similar to that which we did for Grand Central Station. This would allow us to recommend specific days of the week and hours in which we can expect the most traffick and thereby optimally set the street teams up for success.
+
+
 
 
 
