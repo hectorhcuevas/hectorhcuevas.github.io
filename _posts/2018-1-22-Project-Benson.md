@@ -24,7 +24,7 @@ title: Project Benson
 * 42nd St Grand Central
 * 42nd St Times Sq
 * Fulton St
-* Canal St
+* Canal St  
 Based on the feedback our team receives, by knowing the amount of volunteers and what their availability is we can further optimize our placement of street teams. The next approach would be to take into account traffic volume at specific stations and for different times of day and days of the week at those stations. 
 
 
