@@ -31,7 +31,7 @@ When we examine traffic on an hourly basis it seems that late evenings are most 
     
 ![fig 3](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL_hourly.png) ![fig 4](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/Line_chrt.png)
 ### Conclusions
-   In the end my team came up with the following list of recommended stations:  
+   In the end my team came up with a short list of recommended stations. These stations meet our criteria best, though certain other stations (14th Union sq for example) are high traffick and relatively close to areas with a high density of tech funding. These stations may also be considered if manpower permits, but withers such as 86th or 125th are well outside of the Midtown/Lower Manhattan area and therefore do not warrant as much priority. With that in mind, our team recommends placeing street teams at the following stations:  
 * 34th St-Penn 
 * 23rd St 
 * 42nd St Grand Central
@@ -39,7 +39,7 @@ When we examine traffic on an hourly basis it seems that late evenings are most 
 * Fulton St
 * Canal St
 
-&nbsp;&nbsp;&nbsp;This list can be amended of course, according to our client's feedback and their overall manpower as well as volunteer's availability. Our team's next step for our hypothetical client would be to put together an effective marketing street based on these factors and, given a refined list of high-priority stations, could do further analysis similar to that which we did for Grand Central Station. This would allow us to recommend specific days of the week and hours in which we can expect the most traffick and thereby optimally set the street teams up for success.
+&nbsp;&nbsp;&nbsp;This list can be amended according to our client's feedback and their overall manpower as well as volunteer's availability. Our team's next step for our hypothetical client would be to put together an effective marketing strategy based on these factors and, given a refined list of high-priority stations, could do further analysis similar to that which we did for Grand Central Station. This would allow us to recommend specific days of the week and hours in which we can expect the most traffick and thereby optimally set the street teams up for success.
 
 
 
