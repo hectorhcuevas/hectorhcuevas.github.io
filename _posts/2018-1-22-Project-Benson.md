@@ -31,7 +31,7 @@ When we examine traffic on an hourly basis it seems that late evenings are most 
     
 ![fig 3](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/GRND_CNTRL_hourly.png) ![fig 4](https://github.com/hectorhcuevas/hectorhcuevas.github.io/blob/master/images/Line_chrt.png)
 ### Conclusions
-   In the end my team came up with a short list of recommended stations. These stations meet our criteria best, though certain other stations (14th Union sq for example) are high traffick and relatively close to areas with a high density of tech funding. These stations may also be considered if manpower permits, but others such as 86th or 125th are well outside of the Midtown/Lower Manhattan area and therefore do not warrant as much priority. With that in mind, our team recommends placeing street teams at the following stations:  
+   In the end my team came up with a short list of recommended stations. These stations meet our criteria best, though certain other stations (14th Union sq for example) are high traffick and relatively close to areas with a high density of tech funding. These stations may also be considered if manpower permits, but others such as 86th or 125th are well outside of the Midtown/Lower Manhattan area and therefore do not warrant as much priority. With that in mind, our team recommends placing street teams at the following stations:  
 * 34th St-Penn 
 * 23rd St 
 * 42nd St Grand Central
