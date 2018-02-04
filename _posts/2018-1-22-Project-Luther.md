@@ -11,7 +11,7 @@ The objective of my project was predicting rates of obesity in a country based o
 
 # Methods
 
-obesity rates, our target variable, were scraped from the web using BeautifulSoup. The data was extracted from a table from [Renew Bariatics](https://renewbariatrics.com/obesity-rank-by-countries/).
+Obesity rates, our target variable, were scraped from the web using BeautifulSoup. The data was extracted from a table from [Renew Bariatics](https://renewbariatrics.com/obesity-rank-by-countries/).
 From there, data were cleaned and stripped of commas, percentage signs, etc. in order to process and run analysis in our pandas dataframe.
 The approach for this investigation began by looking at broad measures of a country's wealth and well-being. As previously mentioned, obesity tends to be a bigger problem in wealthy countries like the US and westen Europe. When comparing relative 
 wealth between countries, GDP per capita is a standard measurement, so I decided to use it as a preliminary variable to see
