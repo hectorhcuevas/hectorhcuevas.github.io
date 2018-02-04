@@ -3,7 +3,7 @@ layout: post
 title: Project Luther 
 ---
 # Weeks 2 and 3 
-Our second and third week at Metis was focused on learning the fundamentals of predictive modeling using linear regression. Furthermore, data gathering was expanded to web-scraping and model selection and generalization were also incorporated as essential parts of this project.
+Our second and third weeks at Metis was focused on learning the fundamentals of predictive modeling using linear regression. Furthermore, data gathering was expanded to web-scraping and model selection and generalization were also incorporated as essential parts of this project.
 
 # Objective
 
