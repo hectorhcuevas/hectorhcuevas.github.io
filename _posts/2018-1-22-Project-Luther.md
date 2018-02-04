@@ -7,7 +7,7 @@ Our second and third weeks at Metis were focused on learning the fundamentals of
 
 # Objective
 
-The objective of my project was predicting rates of obesity in a country based off certain characteristics (mostly socio-economic. Obesity is defined as a BMI (Weight(KG)/Height(m^2) greater than 30. Obesity is an arbitrary yet meaningful measure of someone's body composition. In this analysis, obesity rates are a measure of the percentage of a population in a country who is at or over the 30 BMI threshhold. It is not simply an aesthetic or trivial proble; being obese has been strongly linked
+The objective of my project was predicting rates of obesity in a country based off certain characteristics (mostly socio-economic). Obesity is defined as a BMI (Weight(KG)/Height(m^2) greater than 30. Obesity is an arbitrary yet meaningful measure of someone's body composition. In this analysis, obesity rates are a measure of the percentage of a population in a country who is at or over the 30 BMI threshhold. It is not simply an aesthetic or trivial proble; being obese has been strongly linked
 to a multitude of diseases and other health problems. Consequently countries with a large obesity rate must carry the immense
 costs; primarily in health care, but also in everyday activities like productivity, transportation, waste, etc. While many
 developed countries (ie USA) are already <35% obese and suffering growing consequences as a result, many developing countries
