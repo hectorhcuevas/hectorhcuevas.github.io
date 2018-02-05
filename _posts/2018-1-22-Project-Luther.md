@@ -37,7 +37,7 @@ The remaining dependent variables in my model were:
 # Methods 
 
 ## Variable Selection
-The approach for this investigation began by looking at broad measures of a country's wealth and well-being. The first variable which came to mind was a measure of a population's activity level.
+The approach for this investigation began by looking at broad measures of a country's wealth and well-being. From there, I added additional variables which had smaller overall effects but did contribute to the accuracy of predictions. The first dependent variable which came to mind was a measure of a population's activity level.
 ### Activity Levels
 &nbsp;&nbsp;&nbsp;Detailed data on such a broad spectrum of countries is logisticaly difficult to collect, but I made due with a measure of what the [WHO](http://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/) calls 'insufficiently active'; meaning an individual does not meet the minimum standards of activity they've set for individuals to stay healthy. While there was a positive correlation, the interval for which we can correctly predict obesity based only on percentage of population not sufficiently active was less accurate for particularly low and high values. Southeast Asian countries, for example, were found to have some of the highest percentages of their population be insufficiently active, yet these same countries also have some of the lowest obesity rates. It was clear I'd have to look elsewhere  for additional dependent variables in order to more accurately predict obesity as activity level alone made for an insufficient model.
 
@@ -66,8 +66,15 @@ The approach for this investigation began by looking at broad measures of a coun
 
 ## Model Fit 
 
+&nbsp;&nbsp;&nbsp;The Figure below shows the overall fit of my model represented by the black dashed line with the indentity line overlayed with a gray dashed line. 
+
 ![Figure 4](/images/y_yhat.png)
+
+The accuracy of the model was given by a cross-validated R-squared, in our case the model scored .885. This means the model was able to explain about 88.5% of the variance we see in obesity rates between countries. We can see the relative high degree of accuracy by the overlap between the identity line and my model's fitted line; they're nearly identical.  
+
+&nbsp;&nbsp;&nbsp;Of course, my model is still far from perfect and in particular is limited by some of the asssumptions it makes. For example, countries which are wealthy and well educated are predicted to have higher obesity rates all else equal- but this is not universally the case. The figure below shows the residuals of my model's errors plotted against respective fitted values.
 
 
 ![Figure 5](/images/resid_fitted.png)
 
+&nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are well educated and have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries should have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively.  
