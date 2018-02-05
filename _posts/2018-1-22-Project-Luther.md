@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Luther 
+title: Predicting Obesity Rates: A Global Perspective
 ---
 # Weeks 2 and 3 
 &nbsp;&nbsp;&nbsp;Our second and third weeks at Metis were focused on learning the fundamentals of predictive modeling using linear regression. Additionally, data gathering was expanded to web-scraping using Beautiful Soup 4 and Selium. Model selection and generalization methods were also incorporated as essential parts of this project.
