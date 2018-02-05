@@ -53,6 +53,9 @@ The remaining dependent variables in my model were:
 
 &nbsp;&nbsp;&nbsp;From this plot we can clearly see the Oceania categorical variable has a potentially huge impact on projected obesity rates. Education appears to have a huge effect also, but keep in mind these variables are using different scales. Education, for example, is a 0 to 1 variable, hence its large coefficient reflects moreso the fact that education is calculated using a less-than-1 decimal than actually having an enormous effect on obesity projections. In other words, our coefficient is telling us that we can expect a theoretical country with an education index of 1 to be about 17.4% more obese than a theoretical country with an index of 0.
 
+
+# Model Fit 
+
 ![Figure 4](/images/resid_fitted.png)
 
 
