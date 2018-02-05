@@ -56,8 +56,8 @@ The remaining dependent variables in my model were:
 
 # Model Fit 
 
-![Figure 4](/images/resid_fitted.png)
+![Figure 4](/images/y_yhat.png)
 
 
-![Figure 5](/images/y_yhat.png)
+![Figure 5](/images/resid_fitted.png)
 
