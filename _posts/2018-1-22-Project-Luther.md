@@ -36,13 +36,21 @@ The remaining dependent variables in my model were:
 
 # Methods 
 
+## Variable Selection
+
+### Activity Levels
 &nbsp;&nbsp;&nbsp;The approach for this investigation began by looking at broad measures of a country's wealth and well-being. The first variable which came to mind was a measure of a population's activity level. Detailed data on such a broad spectrum of countries is logisticaly difficult to collect, but I made due with a measure of what the [WHO](http://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/) calls 'insufficiently active'; meaning an individual does not meet the minimum standards of activity they've set for individuals to stay healthy. While there was a positive correlation, the interval for which we can correctly predict obesity based only on percentage of population not sufficiently active was less accurate for particularly low and high values. Southeast Asian countries, for example, were found to have some of the highest percentages of their population be insufficiently active, yet these same countries also have some of the lowest obesity rates. It was clear I'd have to look elsewhere  for additional dependent variables in order to more accurately predict obesity as activity level alone made for an insufficient model.
 
+### GDP
 &nbsp;&nbsp;&nbsp;As previously mentioned, obesity tends to be a bigger problem in wealthy countries like the US and westen Europe. When comparing relative wealth between countries GDP per capita is a standard measurement, so I decided to use it as a dependent variable to see if wealthier countries tended to have higher obesity rates. GDP per capita and obesity rates are indeed correlated, and appear to be an even better indicater than levels of activity. Still, my model's performance was sub-par, and I felt adding a bit more nuance than simply looking at activity and wealth would help my model make better predictions.
 
+### Education
 &nbsp;&nbsp;&nbsp;One thing I particularly wanted to account for was the fact that while some countries have high GDP's, this doesn't necessarily translate into a modern and progressive state. Some countries are extraordinarily wealthy overall but this wealth doesn't get passed on to the entirety of the population or even institutions of governance, education, and other public services. I wanted to account for this by including a more holistic measure of overall development of a country, so I turned next to the human development index. 
 
-&nbsp;&nbsp;&nbsp;HDI indeed made my model more accurate, but one issue with HDI was that it also took health and life expectancy into account, which we can assume are being impacted by obesity rates.  Being that my model was attempting to predict high obesity rates, I found that simply taking the education index from HDI turned out to be a more effective variable to include. The figure below demonstrates how well the dependent variables I've discussed predict obesity on their own.
+&nbsp;&nbsp;&nbsp;HDI indeed made my model more accurate, but one issue with HDI was that it also took health and life expectancy into account, which we can assume are being impacted by obesity rates.  Being that my model was attempting to predict high obesity rates, I found that simply taking the education index from HDI turned out to be a more effective variable to include.
+
+### Summary of Feature Variables
+&nbsp;&nbsp;&nbsp;The figure below demonstrates how well the dependent variables I've discussed predict obesity on their own.
 
 ![Figure 2](/images/Subplots.png)
 
@@ -56,7 +64,7 @@ The remaining dependent variables in my model were:
 &nbsp;&nbsp;&nbsp;From this plot we can clearly see the Oceania categorical variable has a potentially huge impact on projected obesity rates. Education appears to have a huge effect also, but keep in mind these variables are using different scales. Education, for example, is a 0 to 1 variable, hence its large coefficient reflects moreso the fact that education is calculated using a less-than-1 decimal than actually having an enormous effect on obesity projections. In other words, our coefficient is telling us that we can expect a theoretical country with an education index of 1 to be about 17.4% more obese than a theoretical country with an index of 0.
 
 
-# Model Fit 
+## Model Fit 
 
 ![Figure 4](/images/y_yhat.png)
 
