@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting Obesity Rates- A Global Perspective
+title: Predicting Obesity Rates A Global Perspective
 ---
 
 # Project Luther: Weeks 2-3
