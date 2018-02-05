@@ -32,7 +32,7 @@ The remaining dependent variables in my model were:
 
 &nbsp;&nbsp;&nbsp;Figure 1 below gives us a general idea of where obesity is most prevalent. For the purposes of this analysis, we will refer to Arab States, which is inclusive of Middle East and North African states. In regards to the Oceania region which is also included in the analysis, we mean the small pacific islands excluding New Zealand and Australia 
 
-![Fig 1](/images/Global_Map.png)
+![Figure 1](/images/Global_Map.png)
 
 # Methods 
 
@@ -42,13 +42,19 @@ The remaining dependent variables in my model were:
 
 &nbsp;&nbsp;&nbsp;HDI indeed made my model more accurate, but one issue with HDI was that it also took health and life expectancy into account, which we can assume are being impacted by obesity rates.  Being that my model was attempting to predict high obesity rates, I found that simply taking the education index from HDI turned out to be a more effective variable to include. The figure below demonstrates how well the dependent variables I've discussed predict obesity on their own.
 
-![figure 2](/images/Subplots.png)
+![Figure 2](/images/Subplots.png)
 
 &nbsp;&nbsp;&nbsp;Education turned out to be one of the most impactful coefficients in my model. The slope of my curve was almost entirely predicated on it and GDP per capita. Finally, I included a variable for a country's imports and level of globalization with the idea that countries more integrated with the international community would tend to have preferences similar to those of wealthier (and more obese) countries, and hench might be more likely to be obese themselves. Furthermore, imports might further contribute to obesity by bringing modern gadgets (TVs, computers, etc) that might lead populations to adopt a more sedentary lifestyle. 
 
 &nbsp;&nbsp;&nbsp;In the end, with my other variables accounted for, imports and globalization had a somewhat unexpected effect on obesity rates. Imports had only a slight effect, and to the extent they did effect obesity, the relationship appears to be negative. In regards to globalization, the variable only had a slight effect on two regions; Asia and Arab States. This relationship turned out to be inversely related to obesity for Asian countries, and had the opposite effect for Arab States. One last effect my model took into account was GDP in European countries. For these countries, the effects of GDP per capita were slightly less so than for other regions. In particular when examining the least obese European countries, scandanavian countries like Finland and Sweden along with Switzerland (countries with more progressive/universal healthcare) were well under their projected obesity rates given their levels of wealth, education, and so on. Figure 3 below shows the co-efficients of the variables included in my final model.
 
-![fig 3](/images/Vars.png)
+![Figure 3](/images/Vars.png)
 
 
 &nbsp;&nbsp;&nbsp;From this plot we can clearly see the Oceania categorical variable has a potentially huge impact on projected obesity rates. Education appears to have a huge effect also, but keep in mind these variables are using different scales. Education, for example, is a 0 to 1 variable, hence its large coefficient reflects moreso the fact that education is calculated using a less-than-1 decimal than actually having an enormous effect on obesity projections. In other words, our coefficient is telling us that we can expect a theoretical country with an education index of 1 to be about 17.4% more obese than a theoretical country with an index of 0.
+
+![Figure 4](/images/resid_fitted.png)
+
+
+![Figure 5](/images/y_yhat.png)
+
