@@ -69,13 +69,14 @@ The approach for this investigation began by looking at broad measures of a coun
 &nbsp;&nbsp;&nbsp;From this plot we can clearly see the Oceania categorical variable has a potentially huge impact on projected obesity rates. Education appears to have a huge effect also, but keep in mind these variables are using different scales. Education, for example, is a 0 to 1 variable, hence its large coefficient reflects moreso the fact that education is calculated using a less-than-1 decimal than actually having an enormous effect on obesity projections. In other words, our coefficient is telling us that we can expect a theoretical country with an education index of 1 to be about 17.4% more obese than a theoretical country with an index of 0.
 
 
-## Model Fit 
+## Model Fit and Selection
 
+&nbsp;&nbsp;&nbsp;Although I had good results with OLS regression, this final model utilized a regularization technique known as [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html). Ridge regression regularizes our model so that it may generalize to better fit data outside of our model. RidgeCV simply pairs this with a cross-validatedion technique which finds the best parameters for ridge and gives us a cross-validated R-squared score for our model.
 &nbsp;&nbsp;&nbsp;*Figure 4* below shows the overall fit of my model represented by the black dashed line with the indentity line overlayed with a gray dashed line. 
 
 ![Figure 4](/images/y_yhat.png)
 
-&nbsp;&nbsp;&nbsp;The accuracy of the model was given by a cross-validated R-squared, in our case the model scored .885. This means the model was able to explain about 88.5% of the variance we see in obesity rates between countries. We can see the relative high degree of accuracy by the overlap between the identity line and my model's fitted line; they're nearly identical.  
+&nbsp;&nbsp;&nbsp;The accuracy of the model was given by a cross-validated R-squared, in our case the model had a score of .885. This means the model was able to explain about 88.5% of the variance we see in obesity rates between countries. We can see the relative high degree of accuracy by the overlap between the identity line and my model's fitted line; they're nearly identical.   
 
 &nbsp;&nbsp;&nbsp;Of course, my model is still far from perfect and in particular is limited by some of the asssumptions it makes. For example, countries which are wealthy and well educated are predicted to have higher obesity rates all else equal- but this is not universally the case. *Figure 5* below shows the residuals of my model's errors plotted against respective fitted values.
 
