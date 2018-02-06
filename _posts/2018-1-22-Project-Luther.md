@@ -87,5 +87,5 @@ The remaining dependent variables in my model were:
 &nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are well educated and have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries should have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively. 
 
 
-## Conclusions
+## Conclusions and Future Work
 &nbsp;&nbsp;&nbsp;
