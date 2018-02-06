@@ -8,7 +8,10 @@ title: Predicting Obesity Rates- A Global Perspective
 
 # Objective
 
-&nbsp;&nbsp;&nbsp;The objective of my project was predicting rates of obesity in a country based off certain characteristics (mostly socio-economic). Obesity is defined as a BMI (Weight(KG)/Height(m^2) greater than 30. Obesity is an arbitrary yet meaningful measure of someone's body composition. It is neither a trivial nor simply aesthetic problem; being obese has been strongly linked to a multitude of diseases and other health problems. Consequently countries with a large obesity rate must carry the immense costs; primarily in health care, but also in everyday activities like productivity, transportation, waste, etc. In the U.S. alone, obesity- related healthcare expenses account for 21% of total annual healthcare expenses, [about $190 billion and an additional $4.3 billion for obesity-related absenteeism at work](http://www.healthycommunitieshealthyfuture.org/learn-the-facts/economic-costs-of-obesity/).  
+&nbsp;&nbsp;&nbsp;The objective of my project was predicting rates of obesity in a country based off certain characteristics (mostly socio-economic). Obesity is defined as a BMI (Weight(KG)/Height(m^2) greater than 30. 
+
+## Urgency of the Situation 
+&nbsp;&nbsp;&nbsp;Obesity is a somewhat arbitrary yet meaningful measure of someone's body composition. It is neither a trivial nor simply aesthetic problem; being obese has been strongly linked to a multitude of diseases and other health problems. Consequently, countries with a high obesity rates must carry the immense costs; primarily in health care, but also in through loss in productivity, transportation, waste, etc. In the U.S. alone, obesity- related healthcare expenses account for 21% of total annual healthcare expenses, [about $190 billion and an additional $4.3 billion for obesity-related absenteeism at work](http://www.healthycommunitieshealthyfuture.org/learn-the-facts/economic-costs-of-obesity/).  
 
 &nbsp;&nbsp;&nbsp;While many developed countries (ie USA) are already >35% obese and suffering growing consequences as a result, many developing countries are seeing an exponential growth in obese population. Some even have the dual-problem of feeding starving populations while trying to deal with rising obesity rates. Regardless, many are surprised to learn that today more people die from an over- abundance of food, rather than a shortage. If there is no intervention, this trend will only increase as more countries join the developed world. With [1 in 2 adults globally are projected to be obese by 2050](http://www.telegraph.co.uk/news/uknews/1566436/Half-of-adults-will-be-obese-by-2050.html), and trillions of dollars at stake, it's clearly crucial from a policy perspective to better understand this epidemic.
 
@@ -28,7 +31,7 @@ The remaining dependent variables in my model were:
 
 &nbsp;&nbsp;&nbsp;Not all regions of the world were found to be particularly useful or statistically significant in my model, hence only Oceania, Arab States, and Europe were taken into account as categorical variables. GDP per capita and imports were both changed via log transformation in order to obtain a more normal distribution of these characteristice, as both can vary by orders of magnitute between countries. Globalization is an index which takes into account social, political, and economic integration between that country and the international community. While these were the variables included in my final model which I'll discuss shortly, I began my investigation with some exploratory data analysis on some of my more noteworthy variables.
 
-## A Global Snapshot
+### A Global Snapshot
 
 &nbsp;&nbsp;&nbsp;*Figure 1* below gives us a general idea of where obesity is most prevalent. For the purposes of this analysis, we will refer to Arab States, which is inclusive of Middle East and North African states. In regards to the Oceania region which is also included in the analysis, we mean the small pacific islands excluding New Zealand and Australia 
 
@@ -79,4 +82,8 @@ The accuracy of the model was given by a cross-validated R-squared, in our case 
 
 ![Figure 5](/images/resid_fitted.png)
 
-&nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are well educated and have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries should have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively.  
+&nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are well educated and have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries should have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively. 
+
+
+# Conclusions
+&nbsp;&nbsp;&nbsp;
