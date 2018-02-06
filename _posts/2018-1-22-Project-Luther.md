@@ -6,17 +6,17 @@ title: Predicting Obesity Rates- A Global Perspective
 &nbsp;&nbsp;&nbsp;Our second and third weeks at Metis were focused on learning the fundamentals of predictive modeling using linear regression. Additionally, data gathering was expanded to web-scraping using Beautiful Soup 4 and Selium. Model selection and generalization methods were also incorporated as essential parts of this project.
 
 
-# Objective
+## Objective
 
 &nbsp;&nbsp;&nbsp;The objective of my project was predicting rates of obesity in a country based off certain characteristics (mostly socio-economic). Obesity is defined as a BMI (Weight(KG)/Height(m^2) greater than 30. 
 
-## Urgency of the Situation 
+### Urgency of the Situation 
 &nbsp;&nbsp;&nbsp;Obesity is a somewhat arbitrary yet meaningful measure of someone's body composition. It is neither a trivial nor simply aesthetic problem; being obese has been strongly linked to a multitude of diseases and other health problems. Consequently, countries with a high obesity rates must carry the immense costs; primarily in health care, but also in through loss in productivity, transportation, waste, etc. In the U.S. alone, obesity- related healthcare expenses account for 21% of total annual healthcare expenses, [about $190 billion and an additional $4.3 billion for obesity-related absenteeism at work](http://www.healthycommunitieshealthyfuture.org/learn-the-facts/economic-costs-of-obesity/).  
 
 &nbsp;&nbsp;&nbsp;While many developed countries (ie USA) are already >35% obese and suffering growing consequences as a result, many developing countries are seeing an exponential growth in obese population. Some even have the dual-problem of feeding starving populations while trying to deal with rising obesity rates. Regardless, many are surprised to learn that today more people die from an over- abundance of food, rather than a shortage. If there is no intervention, this trend will only increase as more countries join the developed world. With [1 in 2 adults globally are projected to be obese by 2050](http://www.telegraph.co.uk/news/uknews/1566436/Half-of-adults-will-be-obese-by-2050.html), and trillions of dollars at stake, it's clearly crucial from a policy perspective to better understand this epidemic.
 
 
-# Data
+## Data
 
 &nbsp;&nbsp;&nbsp;Obesity rates, our target variable, were scraped from the web using BeautifulSoup 4. The data was extracted from a table from [Renew Bariatics](https://renewbariatrics.com/obesity-rank-by-countries/).
 From there, data were cleaned and stripped of commas, percentage signs, etc. in order to process and run analysis in our pandas dataframe. The end result was a dataframe of 154 countries by name and their respective obesity rates. The remainder of our variables were dependednt and came from a variety of government and NGO sourcers (IMF,CIA,UN, and WHO) and were merged with the initial obesity data by country name.
@@ -37,7 +37,7 @@ The remaining dependent variables in my model were:
 
 ![Figure 1](/images/Global_Map.png)
 
-# Methods 
+
 
 ## Variable Selection
 The approach for this investigation began by looking at broad measures of a country's wealth and well-being. From there, I added additional variables which had smaller overall effects but did contribute to the accuracy of predictions. The first dependent variable which came to mind was a measure of a population's activity level.
@@ -85,5 +85,5 @@ The accuracy of the model was given by a cross-validated R-squared, in our case 
 &nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are well educated and have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries should have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively. 
 
 
-# Conclusions
+## Conclusions
 &nbsp;&nbsp;&nbsp;
