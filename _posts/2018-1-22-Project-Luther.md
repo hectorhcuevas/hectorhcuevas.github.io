@@ -69,7 +69,7 @@ The remaining dependent variables in my model were:
 &nbsp;&nbsp;&nbsp;From this plot we can clearly see the Oceania categorical variable has a potentially huge impact on projected obesity rates. Education appears to have a huge effect also, but keep in mind these variables are using different scales. Education, for example, is a 0 to 1 variable, hence its large coefficient reflects moreso the fact that education is calculated using a less-than-1 decimal than actually having an enormous effect on obesity projections. In other words, our coefficient is telling us that we can expect a theoretical country with an education index of 1 to be about 17.4% more obese than a theoretical country with an index of 0.
 
 
-## Model Fit and Selection
+## Model Selection and Fit
 
 &nbsp;&nbsp;&nbsp;Although I had good results with OLS regression, my final model utilized a regularization technique known as [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html). Ridge regression regularizes our model so that it may generalize to better fit data outside of our model. RidgeCV simply pairs this with a cross-validatedion technique which finds the best parameters for ridge and gives us a cross-validated R-squared score for our sample.
 
