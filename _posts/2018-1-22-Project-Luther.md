@@ -40,7 +40,7 @@ The remaining dependent variables in my model were:
 
 
 ## Variable Selection
-The approach for this investigation began by looking at broad measures of a country's wealth and well-being. From there, I added additional variables which had smaller overall effects but did contribute to the accuracy of predictions. The first dependent variable which came to mind was a measure of a population's activity level.
+&nbsp;&nbsp;&nbsp;The approach for this investigation began by looking at broad measures of a country's wealth and well-being. From there, I added additional variables which had smaller overall effects but did contribute to the accuracy of predictions. The first dependent variable which came to mind was a measure of a population's activity level.
 ### Activity Levels
 &nbsp;&nbsp;&nbsp;Detailed data on such a broad spectrum of countries is logisticaly difficult to collect, but I made due with a measure of what the [WHO](http://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/) calls 'insufficiently active'; meaning an individual does not meet the minimum standards of activity they've set for individuals to stay healthy. While there was a positive correlation, the interval for which we can correctly predict obesity based only on percentage of population not sufficiently active was less accurate for particularly low and high values. Southeast Asian countries, for example, were found to have some of the highest percentages of their population be insufficiently active, yet these same countries also have some of the lowest obesity rates. It was clear I'd have to look elsewhere  for additional dependent variables in order to more accurately predict obesity as activity level alone made for an insufficient model.
 
@@ -71,7 +71,8 @@ The approach for this investigation began by looking at broad measures of a coun
 
 ## Model Fit and Selection
 
-&nbsp;&nbsp;&nbsp;Although I had good results with OLS regression, this final model utilized a regularization technique known as [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html). Ridge regression regularizes our model so that it may generalize to better fit data outside of our model. RidgeCV simply pairs this with a cross-validatedion technique which finds the best parameters for ridge and gives us a cross-validated R-squared score for our model.
+&nbsp;&nbsp;&nbsp;Although I had good results with OLS regression, my final model utilized a regularization technique known as [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html). Ridge regression regularizes our model so that it may generalize to better fit data outside of our model. RidgeCV simply pairs this with a cross-validatedion technique which finds the best parameters for ridge and gives us a cross-validated R-squared score for our model.
+
 &nbsp;&nbsp;&nbsp;*Figure 4* below shows the overall fit of my model represented by the black dashed line with the indentity line overlayed with a gray dashed line. 
 
 ![Figure 4](/images/y_yhat.png)
