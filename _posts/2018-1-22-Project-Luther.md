@@ -79,7 +79,7 @@ The dependent variables gathered for the model were:
 
 &nbsp;&nbsp;&nbsp;The accuracy of the model is measured by its cross-validated R-squared score of .885. This means the model was able to explain about 88.5% of the variance we see in obesity rates between countries. We can see the relative high degree of accuracy by the overlap between the identity line and my model's fitted line; they're nearly identical.   
 
-&nbsp;&nbsp;&nbsp;Of course, my model is still far from perfect and in particular is limited by some of the asssumptions it makes. For example, countries which are wealthy and well educated are predicted to have higher obesity rates all else equal- but this is not universally the case. *Figure 5* below shows the residuals of my model's errors plotted against respective fitted values.
+&nbsp;&nbsp;&nbsp;Of course, my model is still far from perfect and in particular is limited by some of the asssumptions it makes. For example, countries which are wealthy and well educated are predicted to have higher obesity rates all else equal, but this is not universally the case. *Figure 5* below shows the residuals of my model's errors plotted against respective fitted values.
 
 
 ![Figure 5](/images/resid_fitted.png)
