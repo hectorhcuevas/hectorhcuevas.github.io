@@ -21,7 +21,7 @@ title: Predicting Obesity Rates- A Global Perspective
 &nbsp;&nbsp;&nbsp;Obesity rates, our target variable, were scraped from the web using BeautifulSoup 4. The data was extracted from a table from [Renew Bariatics](https://renewbariatrics.com/obesity-rank-by-countries/).
 From there, data were cleaned and stripped of commas, percentage signs, etc. in order to process and run analysis in our pandas dataframe. The end result was a dataframe of 154 countries by name and their respective obesity rates. The remainder of our (dependent) variables came from a variety of government and NGO sourcers (IMF,CIA,UN, and WHO) and were merged with the initial obesity data by country name.
 
-The remaining dependent variables in my model were:
+The dependent variables gathered for the model were:
   * Education (Index)
   * Activity- % of Population Insufficiently Active
   * Region of World (Oceania,Arab States, Europe)
@@ -29,7 +29,7 @@ The remaining dependent variables in my model were:
   * log of Imports
   * Globalization (Index)
 
-&nbsp;&nbsp;&nbsp;Not all regions of the world were found to be particularly useful or statistically significant for my model's purposes; hence only Oceania, Arab States, and Europe were taken into account as categorical variables. GDP per capita and imports were both changed via log transformation in order to obtain a more normal distribution of these characteristice, as both can vary by orders of magnitute between countries. Globalization is an index which takes into account social, political, and economic integration between that country and the international community. While these were the variables included in my final model which I'll discuss shortly, I began my investigation with some exploratory data analysis on some of my more noteworthy variables.
+&nbsp;&nbsp;&nbsp;Not all regions of the world were found to be particularly useful or statistically significant for my model's purposes; hence only Oceania, Asia, Arab States, and Europe were taken into account as categorical variables. GDP per capita and imports were both changed via log transformation in order to obtain a more normal distribution of these features, as both can vary by orders of magnitute between countries. Globalization is an index which takes into account social, political, and economic integration between that country and the international community. While these were the variables included in my final model which I'll discuss shortly, I began my investigation with some exploratory data analysis on some of my more noteworthy variables.
 
 ### A Global Snapshot
 
