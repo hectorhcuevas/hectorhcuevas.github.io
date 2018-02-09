@@ -29,7 +29,7 @@ The dependent variables gathered for the model were:
   * log of Imports
   * Globalization (Index)
 
-&nbsp;&nbsp;&nbsp;Not all regions of the world were found to be particularly useful or statistically significant for my model's purposes; hence only Oceania, Asia, Arab States, and Europe were taken into account as categorical variables. GDP per capita and imports were both changed via log transformation in order to obtain a more normal distribution of these features, as both can vary by orders of magnitute between countries. Globalization is an index which takes into account social, political, and economic integration between that country and the international community. While these were the variables included in my final model which I'll discuss shortly, I began my investigation with some exploratory data analysis on some of my more noteworthy variables.
+&nbsp;&nbsp;&nbsp;Not all regions of the world were found to be particularly useful or statistically significant for my model's purposes; hence only Oceania, Asia, Arab States, and Europe were taken into account as categorical variables. GDP per capita and imports were both changed via log transformation in order to obtain a more normal distribution of these features, as both can vary by orders of magnitute between countries. Globalization is an index which takes into account social, political, and economic integration between that country and the international community. While these were the variables included in my final model which I'll discuss shortly, I began my investigation with some exploratory data analysis on a few of noteworthy variables.
 
 ### A Global Snapshot
 
