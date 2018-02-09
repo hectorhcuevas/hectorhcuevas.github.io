@@ -84,8 +84,24 @@ The dependent variables gathered for the model were:
 
 ![Figure 5](/images/resid_fitted.png)
 
-&nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are well educated and have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries should have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively. 
+&nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are fairly well educated, have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries would have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively. 
 
 
 ## Conclusions and Future Work
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;This project concluded with a fairly accurate model which achieved the initial objective of predicting obesity rates quite well. Perhaps more importantly are some of the trends and insights revealed through this analysis. Clearly there is much more work to be done in order to truly understanding the nuanced epidemic of obesity. Still, from this analysis there are a few general conclusions we can draw.
+
+#### Developed, Wealthy Countries Are Generally More Obese
+
+&nbsp;&nbsp;&nbsp;Countries can generally expect to see higher obesity rates among their population as they become wealthier and better educated. There's clearly a good deal of nuance here, as we're unable to conclude what about these characteristics leads to higher obesity rates. Additionally, the effects might be different depending on the region of the country. European countries, for example, showed a weaker effect on obesity rates due to higher GDP per Capita. Then there are those outliers I mentioned who defy this trens, it's possible we might gain further insight from studying these countries and what might contribute to exceptionally low obesity rates. A more granular analysis of changing consumption and lifestyle patterns in countries would surely shed more light on this trend. 
+
+#### Oceania Countries in Particular Have High Obesity Rates
+
+&nbsp;&nbsp;&nbsp;Oceania countries, with the exception of New Zealand and Australia who have characteristics resembling that of European states, can generally expect to have much higher obesity rates. The disparity is quite striking, although we should keep in mind these are relatively small countries and thereby these populations, obese or otherwise, make up a tiny portion of the world's populations. Still, it might be worthwhile to look into lifestyle and consumption patterns on these islands, lest we allow more developing or island states fall into the same pattern. 
+
+#### Sufficient Activity Predicts Lower Obesity Rates
+
+&nbsp;&nbsp;&nbsp;Although the impact appears to be slightly weaker than the previous two mentioned above, there is no doubt a link between levels of activity and projected obesity rates. Furthermore, my model looks only at what percentage of a population meets minimum standards, but doesn't specify frequency or type of activity being done. We should encourage governments to promote a healthy and active lifestyle, but further analysis is certainly needed to prescribe specific recommendations.
+
+#### Globalization and Imports: A More Complicated Effect
+
+&nbsp;&nbsp;&nbsp;As far as how interconnected a country is with the rest of the world, the effects seem to vary between countries. 
