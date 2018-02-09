@@ -40,7 +40,7 @@ The dependent variables gathered for the model were:
 
 
 ## Variable Selection
-&nbsp;&nbsp;&nbsp;The approach for this investigation began by looking at broad measures of a country's wealth and well-being. From there, I added additional variables which had smaller overall effects but did contribute to the accuracy of predictions. The first dependent variable which came to mind was a measure of a population's activity level.
+&nbsp;&nbsp;&nbsp;The approach for this investigation began by looking at broad measures of a country's wealth and well-being. From there, I added additional variables which had smaller overall effects but did contribute to the accuracy of predictions. The first dependent variable I added to the model was a measure of a population's activity level.
 ### Activity Levels
 &nbsp;&nbsp;&nbsp;Detailed data on such a broad spectrum of countries is logisticaly difficult to collect, but I made due with a measure of what the [WHO](http://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/) calls 'insufficiently active'; meaning an individual does not meet the minimum standards of activity they've set for individuals to stay healthy. While there was a positive correlation, the interval for which we can correctly predict obesity based only on percentage of population not sufficiently active was less accurate for particularly low and high values. Southeast Asian countries, for example, were found to have some of the highest percentages of their population be insufficiently active, yet these same countries also have some of the lowest obesity rates. It was clear I'd have to look elsewhere  for additional dependent variables in order to more accurately predict obesity as activity level alone made for an insufficient model.
 
