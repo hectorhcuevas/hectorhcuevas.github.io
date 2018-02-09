@@ -71,7 +71,7 @@ The dependent variables gathered for the model were:
 
 ## Model Selection and Fit
 
-&nbsp;&nbsp;&nbsp;Although I had good results with OLS regression, my final model utilized a regularization technique known as [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html). Ridge regression regularizes our model so that it may generalize to better fit data outside of our model. RidgeCV simply pairs this with a cross-validation technique which finds the best parameters for ridge and gives us a cross-validated R-squared score for our sample.
+&nbsp;&nbsp;&nbsp;Although I had good results with OLS regression, my final model utilized a regularization technique known as [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html). Ridge regression regularizes our model so that it may generalize to better fit data outside of our model. RidgeCV simply pairs this with a cross-validation technique which finds the best parameters for ridge using a portion of the data used to train the model and gives us a cross-validated R-squared score using comparing projected obesity ratesnto actual ones in the rest of our data reserved for testing.
 
 &nbsp;&nbsp;&nbsp;*Figure 4* below shows the overall fit of my model represented by the black dashed line with the indentity line overlayed with a gray dashed line. 
 
