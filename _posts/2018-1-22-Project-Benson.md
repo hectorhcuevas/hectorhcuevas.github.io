@@ -17,20 +17,20 @@ title: Project Benson
  
 &nbsp;&nbsp;&nbsp;For the turnstile data we also wanted to be strategic in regards to what time period we analyzed. Being that the gala would take place in early summer, it seemed ideal to look at the most recent trends in the months leading up to the event. We were able to scrape and clean data which spanned 90 days from March-May of 2017. In order to get a broad perspective of subway traffic trends we were able to group entries by station and look at the aggregate entries for each station during the full 90 day span of the data.  
 
-![Fig 1](/images/Project2_Obesity/Entries_total.png)
+![Fig 1](/images/Project1_MTA/Entries_total.png)
    
 &nbsp;&nbsp;&nbsp;From the aggregate data, we wanted to look at the most trafficked stations only. Figure 1 demonstrates our results for the top 15 stations with the most entries. Most of these stations are concentrated in the Midtown area of Manhattan, with a smaller cluster in lower Manhattan near the financial district and a few others anomalies which are much farther north, though still in Manhattan. As we compared these preliminary results with our data from [Built in NYC](https://www.builtinnyc.com/2016/12/13/big-tech-companies-nyc-locations), it was clear that there was a good deal of overlap between heavily trafficked subway stops and clusters of tech companies. In fact, most of our top 15 stops were located within the 4.5 mile region cited as having the highest concentration of tech companies. When we zoom in to individual zip codes and look at those with the highest funding for tech ventures, we again see significant overlap. Because these areas overlap to a large extent with our areas of high tech company density, we also see a few station names crop up on both lists. Our team took note of such stations and decided to zoom in on a single stop for further analysis.
 
 ### Grand Central Station
 &nbsp;&nbsp;&nbsp; Grand Central Station is undoubtedly a consistently heavily trafficked area. It is also conveniently located within our 4.5 mile region previously mentioned. Additionally it is located just blocks from 10016 and 10018 in midtown, two areas on the top 10 list for highest tech funded zip codes. For these reasons, we wanted to use Grand Central as a test case for further analysis. One further point of consideration for our team was that different stations might have varying levels of traffic by day of the week or hours of the day (with the latter being more likely). In Grand Central, March-May of 2017 in particular, weekdays dominated over weekends, with relatively consistent levels through the week and a peak on Thursdays.   
 
-![Fig 2](/images/Project2_Obesity/GRND_CNTRL.png)  
+![Fig 2](/images/Project1_MTA/GRND_CNTRL.png)  
 
 When we examine traffic on an hourly basis it seems that late evenings are most trafficked in Grand Central Station, with noticeable peaks in early morning and early evening hours being more consistent with rush hours in the city.
     
     
-![fig 3](/images/Project2_Obesity/GRND_CNTRL_hourly.png) 
-![fig 4](/images/Project2_Obesity/Line_chrt.png)
+![fig 3](/images/Project1_MTA/GRND_CNTRL_hourly.png) 
+![fig 4](/images/Project1_MTA/Line_chrt.png)
 ### Conclusions
    In the end my team came up with a short list of recommended stations. These stations meet our criteria best, though certain other stations (14th Union sq for example) are high traffick and relatively close to areas with a high density of tech funding. These stations may also be considered if manpower permits, but others such as 86th or 125th are well outside of the Midtown/Lower Manhattan area and therefore do not warrant as much priority. With that in mind, our team recommends placing street teams at the following stations:  
 * 34th St-Penn 
