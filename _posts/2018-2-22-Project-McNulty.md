@@ -6,7 +6,7 @@ title: Classifying Diabetics
 # Project-McNulty
 Project McNulty was the culmination of weeks 4-6 at Metis. During this time we refined our machine learning modeling skills and added several classification algorithms to our arsenal. For this project in particular, I utilized logistic, gradient boost, random forest. and several other types of classification models. Tree based models performed best for this project, I will explain why this might be as well as discuss the basic functioning throughout this post. 
 
-# Objectie 
+# Objective 
 The objective of this project is primarily to classify individuals into two categories: those who are diabetic or pre-diabetic, and those who are non-diabetic. Tens of millions of Americans are diabetic or pre-diabetic, but worse still is the fact that most are not even aware of their condition. More broadly the objective of this analysis is to explore the possibilities of preventative care and empower individuals to objectively examine and take control of their health. 
 
 ## Data 
