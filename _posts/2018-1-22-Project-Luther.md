@@ -35,7 +35,7 @@ The dependent variables gathered for the model were:
 
 &nbsp;&nbsp;&nbsp;*Figure 1* below gives us a general idea of where obesity is most prevalent. For the purposes of this analysis, we will refer to Arab States, which is inclusive of Middle East and North African states. In regards to the Oceania region which is also included in the analysis, we mean the small pacific islands excluding New Zealand and Australia 
 
-![Figure 1](/images/Global_Map.png)
+![Figure 1](/images/Project2_Obesity/Global_Map.png)
 
 
 
@@ -55,7 +55,7 @@ The dependent variables gathered for the model were:
 ### Summary of Feature Variables
 &nbsp;&nbsp;&nbsp;*Figure 2* below demonstrates how well the dependent variables I've discussed predict obesity on their own.
 
-![Figure 2](/images/Subplots.png)
+![Figure 2](/images/Project2_Obesity/Subplots.png)
 
 &nbsp;&nbsp;&nbsp;Education turned out to be one of the most impactful coefficients in my model. For many countries, obesity rate projections were almost entirely predicated on it and the log of GDP per capita. Finally, I included a variable for a country's imports and level of globalization with the idea that perhaps countries more integrated with the international community would tend to have preferences similar to those of wealthier (and more obese) countries, and hence might be more likely to be obese themselves. Furthermore, imports might further contribute to obesity by bringing modern gadgets (TVs, computers, etc) that might lead populations to adopt a more sedentary lifestyle. 
 
@@ -63,7 +63,7 @@ The dependent variables gathered for the model were:
 
 &nbsp;&nbsp;&nbsp;*Figure 3* below shows the co-efficients of the variables included in my final model.
 
-![Figure 3](/images/Vars.png)
+![Figure 3](/images/Project2_Obesity/Vars.png)
 
 
 &nbsp;&nbsp;&nbsp;From this plot we can clearly see the Oceania categorical variable has a potentially huge impact on projected obesity rates. Education appears to have a huge effect also, but keep in mind these variables are using different scales. Education, for example, is a 0 to 1 variable, hence its large coefficient reflects moreso the fact that education is calculated using a less-than-1 decimal than it actually having an enormous effect on obesity projections. In other words, our coefficient is telling us that we can expect a theoretical country with an education index of 1 to be about 17.4% more obese than a theoretical country with an index of 0.
@@ -75,14 +75,14 @@ The dependent variables gathered for the model were:
 
 &nbsp;&nbsp;&nbsp;*Figure 4* below shows the overall fit of my model represented by the black dashed line with the indentity line overlayed with a gray dashed line. 
 
-![Figure 4](/images/y_yhat.png)
+![Figure 4](/images/Project2_Obesity/y_yhat.png)
 
 &nbsp;&nbsp;&nbsp;The accuracy of the model is measured by its cross-validated R-squared score of .885. This means the model was able to explain about 88.5% of the variance we see in obesity rates between countries. We can see the relative high degree of accuracy by the overlap between the identity line and my model's fitted line; they're nearly identical.   
 
 &nbsp;&nbsp;&nbsp;Of course, my model is still far from perfect and in particular is limited by some of the asssumptions it makes. For example, countries which are wealthy and well educated are predicted to have higher obesity rates all else equal, but this is not universally the case. *Figure 5* below shows the residuals of my model's errors plotted against respective fitted values.
 
 
-![Figure 5](/images/resid_fitted.png)
+![Figure 5](/images/Project2_Obesity/resid_fitted.png)
 
 &nbsp;&nbsp;&nbsp;A couple of noteworthy outliers demonstrate the weakness I mentioned above with my model. Points 3-Singapore and 23-Japan (my two biggest outliers) are both asian countries with particular features which cause my model to make innacurate predictions. These two countries are fairly well educated, have relatively high GDP per capita, and have a relatively high percent of their populations considered insufficiently active. Given this, my model predicted both countries would have obesity rates around 15%, yet Japan and Singapore's actual obesity rates were 3.3% and 6.2% respectively. 
 
