@@ -23,10 +23,6 @@ The data was gathered from the 2012-2013 NHANES survey conducted by the CDC, whi
  
  Among the models I tried, the following performed best in terms of having the highest AUC scores: 
  
- 1. Gradient Boost Classifier
- 2. Logit Classifier
- 3. Random Forest Classifier
- 
  
  | Model        | AUC           | 
 | ------------- |:-------------:| 
