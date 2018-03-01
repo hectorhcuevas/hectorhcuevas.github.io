@@ -33,9 +33,11 @@ The data was gathered from the 2012-2013 NHANES survey conducted by the CDC, whi
 | Naive-Bayes Classifier | 0.7461 |
 
  I will utilized the logit classifier for further interprability of my results, but as is evident from the area under the curve (AUC) score, the gradient boost classifier performed best in terms of correctly classifying diabetic individuals. AUC is a standard metric used to evaluate classification models. It essentially gives an approximation to the proportion of test data which is correctly classified by the model. It's derived directly from the receiver operating characteristic curve; which, in turn is the graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. The curves as plotted in the figure below.
+ 
 ![Fig 1](/images/Project3_Diabetes/RocCurve.png)
 
 The diagonal line can be thought of as a curve for a model based on randomly guessing whether or not an individual is diabetic. Its AUC is .5, so we can expect this kind of model to be %50 accurate. As one might expect, my models performed well above that level of accuracy. Gradient boost having performed best, I will focus the rest of my analysis primarily on this model and describing how decision tree ensembles work. Below is the basic structure of a single decision tree in my gradient boost model, with a much lower depth than was actually used in order to simplify for this visualization.
+
 ![Fig 2](/images/Project3_Diabetes/Dtree.png)
 
 ### Overview of Decision Tree Ensembles
@@ -47,6 +49,7 @@ Finally, let's take a look at how the model actually classified individuals in t
 ![Fig 4](/images/Project3_Diabetes/GBCM.png)
 
 Note that not only did the model have high accuracy and have high rates of true positives and true negatives (TP/TN, the diagonal darker-red squares), it also did a particularly good job at minimizing false negatives (FN). This is important specifically for this type of classification because it is especially important that we not classify someone as non-diabetic when they in fact are. 
+
 ## Conclusions
 
 From this analysis and the results of my project I came to several conclusions regarding the correct classification of diabetic pr pre-diabetic individuals. There was certainly correlation with dollars spent eating out, as well as with BMI, carb (particularly sugar) and fat intake. Demographic issues certainly played a role (particularly age), but these it seems mostly worked to compound the effects of poor health and consumption habits. It should be no surprise that the macronutrient balance in the average diet within my sample was disproportionately heavy on carbohydrates and fats, with minimal protein. It seems this imbalance might also be related to eating out, as these foods tend to be more processed and disproportionately consist of fatty, starchy, or sugary food and drink.
