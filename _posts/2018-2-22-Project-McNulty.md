@@ -41,6 +41,12 @@ The diagonal line can be thought of as a curve for a model based on randomly gue
 ### Overview of Decision Tree Ensembles
 Decision trees operate by asking a series of yes/no questions. If the type of question it is asking is continuous (i.e, BMI) then it will establish a cutoff point at which to segment the sample population. In the figure above, for example, the first question asks whether or not an individual has a BMI above 25.7. It's perhaps no coincidence that those aligns closely with the BMI threshold for being overweight (25). This is because the tree is optimizing questions which provide the best information for segmenting and correctly classifying individuals. It will ask the most pertinent questions first; in this example asking about BMI, then caloric intake, age, various metrics for levels of physical activity, etc. Of course this is only one of tens (or in some cases hundreds) of trees working as an ensemble to arrive at a final decision, but each tree will tend to ask similar questions with order being shuffled around a bit at various levels. The classifier even has a built-in metric which tells us which features are used most for segmentation. Below is a plot of my top features, with their score corresponding to how frequently a question related to that feature was used by the decision tree.
 ![Fig 3](/images/Project3_Diabetes/Features.png)
-![Fig 4](/images/Project3_Diabetes/GB_cm.png)
+### Further Analysis of Results
+Finally, let's take a look at how the model actually classified individuals in terms of diabetic/non-diabetic. A summary is given by the confusion matrix below. 
+
+![Fig 4](/images/Project3_Diabetes/GBCM.png)
+
+Note that not only did the model have high accuracy and have high rates of true positives and true negatives (TP/TN, the diagonal darker-red squares), it also did a particularly good job at minimizing false negatives (FN). This is important specifically for this type of classification because it is especially important that we not classify someone as non-diabetic when they in fact are. 
+## Conclusions
 
 
