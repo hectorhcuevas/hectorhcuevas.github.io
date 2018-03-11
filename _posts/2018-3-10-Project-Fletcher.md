@@ -4,4 +4,4 @@ title: Project Fletcher
 ---
 
 
-{% include mycomponent.html %}
+{% include py_vis.html %}
