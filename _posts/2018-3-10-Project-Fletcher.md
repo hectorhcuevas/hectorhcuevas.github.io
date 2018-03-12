@@ -21,6 +21,11 @@ For this project I utilized a plethora of tools in an attempt to distinguish tre
 
 ### Results 
 
+By visualizing our Word2Vec model in a two-dimentional space using t-SNE, we can better recognize certain patterns in the data. The figure allows us to observe these patterns more intuitively as the proximity of words to one another reflects their similarity within the context of the Word2Vec model, which was trained on the ~100,000 tweets I gathered. Gensim's Word2Vec model has several useful features, among them is the 'similarity' feature which allows us to input a word in the model's dictionary and returns a list of the most similar words, with their respective 'similarity' value from 0-1. 
+
+The more data the model has, generally the better it gets at distinguishing relationships and similarities. Although my model could certainly improve with more tweets/health- related text to train on, it faired surprisingly well at recgonizing patterns and distinguishing similarity among words in health-related topics.
 
 
 ### Conclusions & Future Work
+
+
